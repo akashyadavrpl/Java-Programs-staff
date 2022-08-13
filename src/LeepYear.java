@@ -16,7 +16,7 @@ public class LeepYear {
         // System.out.println(year + " is not leap year");
         // }
 
-        // TODO: More accurate code
+        // : More accurate code
 
         if ((year % 400 == 0) || (year % 4 == 0) && (year % 100 != 0)) {
             System.out.println(year + " is a leap year");
